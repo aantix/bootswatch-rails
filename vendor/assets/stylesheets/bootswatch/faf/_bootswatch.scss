@@ -1,4 +1,4 @@
-// Cosmo 2.3.0
+// FAF custom theme, based on Cosmo 2.3.0
 // Bootswatch
 // -----------------------------------------------------
 
@@ -7,6 +7,13 @@
 // -----------------------------------------------------
 
 @import url('//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700');
+
+@font-face {
+  font-family: 'Bebas';
+  src: font-url("BebasNeue.otf") unquote("format('opentype')");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background: #eee;
@@ -68,10 +75,41 @@ a.text-success:hover { color: darken($green, 10%); }
 // SCAFFOLDING
 // -----------------------------------------------------
 
+// SOCIAL
+// -----------------------------------------------------
+.twitter_share, .facebook_share, .gplus_share, .pinterest_share {
+  color: #FFF;
+  text-align: center;
+}
+.twitter_share {
+  background-color: #5dc4fa;
+}
+
+.facebook_share {
+  background-color: #065bb5;
+}
+
+.gplus_share {
+  background-color: #DA300D;
+}
+
+.pinterest_share {
+  font-style:italic;
+  background-color: #c11a22;
+
+  a{
+    margin-bottom:1px;
+  }
+}
+
 // NAVBAR
 // -----------------------------------------------------
 
 .navbar {
+    // @jim You may want to review this.
+    font-family: Bebas;
+    font-size:20px;
+    text-shadow:none !important;
 
 	.navbar-inner {
 		background-image: none;

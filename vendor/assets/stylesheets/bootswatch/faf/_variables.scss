@@ -53,7 +53,7 @@ $baseFontFamily:        $sansFontFamily !default;
 $baseLineHeight:        20px !default;
 $altFontFamily:         $serifFontFamily !default;
 
-$headingsFontFamily:    inherit !default; // empty to use BS default, $baseFontFamily
+$headingsFontFamily:    Bebas, "Open Sans", Calibri, Candara, Arial, sans-serif !default;
 $headingsFontWeight:    300 !default;    // instead of browser default, bold
 $headingsColor:         $grayDarker !default; // empty to use BS default, $textColor
 

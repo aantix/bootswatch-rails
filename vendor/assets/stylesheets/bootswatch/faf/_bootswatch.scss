@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 // FAF custom theme, based on Cosmo 2.3.0
 // Bootswatch
 // -----------------------------------------------------
@@ -16,13 +18,28 @@
 }
 
 body {
-  background: #eee;
   padding-top: 95px;
 }
 
-h1 {
-	font-size: 50px;
+// We need the body inner so we can set a
+// background color of #eee on the body and then have big image
+// on the body-inner
+.body-inner {
+  padding-top: 95px;
+  margin-top:-95px;
+
+  @include background-image(radial-gradient(25px 25px, #D7E1EE 1px, $blueLight 1100px));
+  height:630px;
 }
+
+
+h1 {
+  font-size: 45px;
+  &.extra_spacing {
+    margin-bottom:40px
+  }
+}
+
 
 h2 {
   font-size:34px;
@@ -106,9 +123,8 @@ a.text-success:hover { color: darken($green, 10%); }
 // -----------------------------------------------------
 
 .navbar {
-    // @jim You may want to review this.
-    font-family: Bebas;
-    font-size:20px;
+    font-family: $headingsFontFamily;
+    font-size:18px;
     text-shadow:none !important;
 
 	.navbar-inner {

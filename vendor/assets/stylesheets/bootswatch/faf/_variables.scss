@@ -20,8 +20,10 @@ $white:                 #fff !default;
 
 // Accent colors
 // -------------------------
+$blueBright:            #007fff !default;
 $blue:                  #304A65 !default;
 $blueDark:              #001F3E !default;
+$blueLight:             #3268AB !default;
 $green:                 #B7DA3A !default;
 $red:                   #FF0039 !default;
 $yellow:                #FFA500 !default;
@@ -32,13 +34,13 @@ $purple:                #9954BB !default;
 
 // Scaffolding
 // -------------------------
-$bodyBackground:        $white !default;
-$textColor:             #555 !default;
+$bodyBackground:        $grayLighter !default;
+$textColor:             $blueDark !default;
 
 
 // Links
 // -------------------------
-$linkColor:             $blue !default;
+$linkColor:             $blueBright !default;
 $linkColorHover:        darken($linkColor, 10%) !default;
 
 
@@ -48,9 +50,9 @@ $sansFontFamily:        "Open Sans", Calibri, Candara, Arial, sans-serif !defaul
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
 
-$baseFontSize:          14px !default;
+$baseFontSize:          16px !default;
 $baseFontFamily:        $sansFontFamily !default;
-$baseLineHeight:        20px !default;
+$baseLineHeight:        22px !default;
 $altFontFamily:         $serifFontFamily !default;
 
 $headingsFontFamily:    Bebas, "Open Sans", Calibri, Candara, Arial, sans-serif !default;

@@ -6,45 +6,6 @@
 // Global values
 // --------------------------------------------------
 
-// Background Photos
-// --------------------------------------------------
-
-// Aqua1
-//$singerFansUrl:       "singer_fansaq1.jpg";
-//$fansMallUrl:         "fans_mallaq1.jpg";
-//$fansMallHungerUrl:   "fans_mall_hungeraq1.jpg";
-//$reeseFansUrl:        "reese_fansaq1.jpg";
-//$feetUnderChairsUrl:  "feet_under_chairsaq1.jpg";
-//$fanHandsUrl:         "fan_handsaq1.jpg";
-//$crowdUrl:            "crowdaq1.jpg";
-
-// BlackWhite1
-$singerFansUrl:       "singer_fansbw1.jpg";
-$fansMallUrl:         url("fans_mallbw1.jpg") no-repeat;
-$fansMallHungerUrl:   "fans_mall_hungerbw1.jpg";
-$reeseFansUrl:        "reese_fansbw1.jpg";
-$feetUnderChairsUrl:  "feet_under_chairsbw1.jpg";
-$fanHandsUrl:         "fan_handsbw1.jpg";
-$crowdUrl:            "crowdbw1.jpg";
-
-//BlackWhite2
-//$singerFansUrl:       "singer_fansbw2.jpg";
-//$fansMallUrl:         "fans_mallbw2.jpg";
-//$fansMallHungerUrl:   "fans_mall_hungerbw2.jpg";
-//$reeseFansUrl:        "reese_fansbw2.jpg";
-//$feetUnderChairsUrl:  "feet_under_chairsbw2.jpg";
-//$fanHandsUrl:         "fan_handsbw2.jpg";
-//$crowdUrl:            "crowdbw2.jpg";
-
-//BlackWhite3
-//$singerFansUrl:       "singer_fansbw3.jpg";
-//$fansMallUrl:         "fans_mallbw3.jpg";
-//$fansMallHungerUrl:   "fans_mall_hungerbw3.jpg";
-//$reeseFansUrl:        "reese_fansbw3.jpg";
-//$feetUnderChairsUrl:  "feet_under_chairsbw3.jpg";
-//$fanHandsUrl:         "fan_handsbw3.jpg";
-//$crowdUrl:            "crowdbw3.jpg";
-
 
 // Grays
 // -------------------------
@@ -96,7 +57,7 @@ $altFontFamily:         $serifFontFamily !default;
 
 $headingsFontFamily:    Bebas, "Open Sans", Calibri, Candara, Arial, sans-serif !default;
 $headingsFontWeight:    300 !default;    // instead of browser default, bold
-$headingsColor:         $grayDarker !default; // empty to use BS default, $textColor
+$headingsColor:         $blueDark !default; // empty to use BS default, $textColor
 
 
 // Component sizing

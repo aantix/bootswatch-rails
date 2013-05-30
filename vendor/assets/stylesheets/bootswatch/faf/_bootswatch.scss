@@ -94,30 +94,55 @@ a.text-success:hover { color: darken($green, 10%); }
 
 // SOCIAL
 // -----------------------------------------------------
-.twitter_share, .facebook_share, .gplus_share, .pinterest_share {
-  color: #FFF;
-  text-align: center;
-}
-.twitter_share {
-  background-color: #5dc4fa;
-}
 
-.facebook_share {
-  background-color: #065bb5;
-}
+.share_links {
+  a:hover {
+    text-decoration: none;
+  }
+  .twitter_share, .facebook_share, .gplus_share, .pinterest_share {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    width: 35px;
+    height: 27px;
+    padding: 6px;
+  }
 
-.gplus_share {
-  background-color: #DA300D;
-}
+  a:hover .facebook_share, a:hover .twitter_share, a:hover .gplus_share, a:hover .pinterest_share  {
+    opacity: 0.75;
+  }
 
-.pinterest_share {
-  font-style:italic;
-  background-color: #c11a22;
+  .twitter_share {
+    background-color: #5dc4fa;
+  }
 
-  a{
-    margin-bottom:1px;
+  .facebook_share {
+    background-color: #065bb5;
+  }
+
+  .gplus_share {
+    background-color: #DA300D;
+  }
+
+  .pinterest_share {
+    font-style:italic;
+    background-color: #c11a22;
+
+    a{
+      margin-bottom:1px;
+    }
   }
 }
+
+.big_share_links {
+  .twitter_share, .facebook_share {
+    font-size: 75px;
+    width: 85px;
+    height: 75px;
+    padding-bottom: 20px;
+  }
+}
+
 
 // NAVBAR
 // -----------------------------------------------------

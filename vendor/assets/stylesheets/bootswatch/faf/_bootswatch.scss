@@ -165,6 +165,11 @@ a.text-success:hover { color: darken($green, 10%); }
 		}
 	}
 
+    .nav > li > a {
+      padding: 14px 0px 14px 30px;
+      font-size:18px;
+    }
+
 	.nav > .active > a,
 	.nav > .active > a:hover,
 	.nav > .active > a:focus {

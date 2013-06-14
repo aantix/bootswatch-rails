@@ -96,9 +96,8 @@ a.text-success:hover { color: darken($green, 10%); }
 // -----------------------------------------------------
 
 .share_links {
-  a:hover {
-    text-decoration: none;
-  }
+  margin-top:42px;
+
   .twitter_share, .facebook_share, .gplus_share, .pinterest_share {
     color: #FFF;
     text-align: center;
@@ -106,6 +105,31 @@ a.text-success:hover { color: darken($green, 10%); }
     width: 35px;
     height: 27px;
     padding: 6px;
+  }
+
+  //Landscape phone to portrait tablet
+  @media (max-width: 767px) {
+    width:168px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top:20px;
+    table {
+      td {
+        padding:6px;
+      }
+    }
+
+    .twitter_share, .facebook_share, .gplus_share, .pinterest_share {
+      color: #FFF;
+      text-align: center;
+      font-size: 40px;
+      width: 60px;
+      height: 50px;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 
   a:hover .facebook_share, a:hover .twitter_share, a:hover .gplus_share, a:hover .pinterest_share  {

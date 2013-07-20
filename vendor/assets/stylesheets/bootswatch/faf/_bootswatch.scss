@@ -888,18 +888,6 @@ footer {
 
 //Portrait tablet to landscape and desktop
 @media (min-width: 768px) and (max-width: 979px) {
-  body {
-    padding-top: 0;
-    //background:pink !important;
-  }
-  .body-inner {
-    padding-top: 0;
-    margin-top:0;
-
-    .navbar .brand {
-      padding-left:30px;
-    }
-  }
 
 }
 
@@ -907,8 +895,6 @@ footer {
 @media (max-width: 767px) {
   body {
     padding-top: 0;
-    //background:yellow !important;
-
   }
   .body-inner {
     padding-top: 0;
@@ -927,7 +913,6 @@ footer {
 @media (max-width: 480px) {
   body {
     padding-top: 0;
-    //background:green !important;
   }
   .body-inner {
     padding-top: 0;

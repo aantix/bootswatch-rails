@@ -468,6 +468,13 @@ div.subnav {
 	}
 }
 
+.btn-primary, .btn, .btn-success {
+  &:hover {
+    opacity: .75 !important;
+    text-decoration:none !important;
+  }
+}
+
 // TABLES
 // -----------------------------------------------------
 
@@ -766,8 +773,8 @@ footer {
 .alert_abs {
   position:absolute;
   z-index:1000;
-  left:-10px;
-  width:96%;
+  width:100%;
+  font-family: $sansFontFamily;
 }
 
 .lead_container {

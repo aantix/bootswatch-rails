@@ -23,10 +23,11 @@ $white:                 #fff !default;
 $blueBright:            #007fff !default;
 $blue:                  #304A65 !default;
 $blueDark:              #001F3E !default;
-$blueLight:             #3268AB !default;
+$blueLight:             #d9edf7 !default;
 $green:                 #B7DA3A !default;
 $red:                   #FF0039 !default;
 $yellow:                #FFA500 !default;
+$yellowLight:           #fcf8e3 !default;
 $orange:                #FF7518 !default;
 $pink:                  #E671B8 !default;
 $purple:                #9954BB !default;
@@ -93,14 +94,14 @@ $btnBorder:                         #bbb !default;
 $btnPrimaryBackground:              lighten($blue, 5%) !default;
 $btnPrimaryBackgroundHighlight:     darken($blue, 5%) !default;
 
-$btnInfoBackground:                 lighten($purple, 5%) !default;
-$btnInfoBackgroundHighlight:        darken($purple, 5%) !default;
+$btnInfoBackground:                 lighten($blueLight, 5%) !default;
+$btnInfoBackgroundHighlight:        darken($blueLight, 5%) !default;
 
 $btnSuccessBackground:              lighten($green, 5%) !default;
 $btnSuccessBackgroundHighlight:     darken($green, 5%) !default;
 
-$btnWarningBackground:              lighten($orange, 5%) !default;
-$btnWarningBackgroundHighlight:     darken($orange, 5%) !default;
+$btnWarningBackground:              lighten($yellowLight, 5%) !default;
+$btnWarningBackgroundHighlight:     darken($yellowLight, 5%) !default;
 
 $btnDangerBackground:               lighten($red, 5%) !default;
 $btnDangerBackgroundHighlight:      darken($red, 5%) !default;
@@ -232,9 +233,9 @@ $heroUnitLeadColor:               inherit !default;
 
 // Form states and alerts
 // -------------------------
-$warningText:             $white !default;
-$warningBackground:       $orange !default;
-$warningBorder:           transparent !default;
+$warningText:             #c09853 !default;
+$warningBackground:       $yellowLight !default;
+$warningBorder:           darken($yellowLight, 5%) !default;
 
 $errorText:               $white !default;
 $errorBackground:         $red !default;
@@ -244,9 +245,9 @@ $successText:             $white !default;
 $successBackground:       $green !default;
 $successBorder:           transparent !default;
 
-$infoText:                $white !default;
-$infoBackground:          $purple !default;
-$infoBorder:              transparent !default;
+$infoText:                #3a87ad !default;
+$infoBackground:          $blueLight !default;
+$infoBorder:              darken($blueLight, 5%) !default;
 
 
 // Tooltips and popovers

@@ -756,7 +756,7 @@ footer {
 	}
 }
 
-.popover.right .arrow {
+.popover.right .arrow, .popover.left .arrow  {
   border-right-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -766,7 +766,7 @@ footer {
 }
 
 
-.popover.right .arrow::after {
+.popover.right .arrow::after, .popover.left .arrow::after  {
   border-right-color: $white;
 }
 
